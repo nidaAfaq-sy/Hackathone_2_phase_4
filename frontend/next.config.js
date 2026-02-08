@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
-  typedRoutes: true,
+    typedRoutes: true,
   images: {
     remotePatterns: [
       { hostname: 'localhost' },
